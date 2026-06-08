@@ -24,7 +24,7 @@ Users can upload documents and images, process them into a vector knowledge base
 - Modular Architecture
 - Future Ollama Integration Support
 
-- ## Tech Stack
+## Tech Stack
 
 ### Frontend
 - Streamlit
@@ -49,26 +49,3 @@ Users can upload documents and images, process them into a vector knowledge base
 - Ollama
 - Local LLM Deployment
 - Hybrid Search
-
-- Documents / Images
-        │
-        ▼
-   Data Loader
-        │
-        ▼
-     Chunking
-        │
-        ▼
- HuggingFace Embeddings
-        │
-        ▼
-      ChromaDB
-        │
-        ▼
- Semantic Retrieval
-        │
-        ▼
-   Groq LLM / Vision
-        │
-        ▼
- Context-Aware Answer
