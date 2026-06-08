@@ -49,3 +49,53 @@ Users can upload documents and images, process them into a vector knowledge base
 - Ollama
 - Local LLM Deployment
 - Hybrid Search
+
+## Installation
+
+### Clone Repository
+
+```bash
+git clone https://github.com/Shiksha-22/VisionAgent
+
+cd VisionAgent
+```
+
+### Create Virtual Environment
+
+```bash
+python3 -m venv myenv
+```
+
+### Activate Environment
+
+Mac/Linux
+
+```bash
+source myenv/bin/activate
+```
+
+Windows
+
+```bash
+myenv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### Configure Environment Variables
+
+Create a `.env` file:
+
+```env
+GROQ_API_KEY=your_api_key_here
+```
+
+### Run Application
+
+```bash
+streamlit run src/streamlit_app.py
+```
